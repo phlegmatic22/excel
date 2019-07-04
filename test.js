@@ -6,7 +6,7 @@ child.stdout.on('data', function (data) {
 });
 
 child.stderr.on('data', function (data) {
-  console.log('stderr: ' + data);
+  console.log('stderr asd: ' + data);
 });
 
 child.on('close', function (code) {
